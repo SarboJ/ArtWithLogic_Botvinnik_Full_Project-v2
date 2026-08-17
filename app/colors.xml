@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#121212</color>
+    <color name="panel_bg">#1E1E1E</color>
+    <color name="panel_border">#333333</color>
+    <color name="accent_gold">#D4AF37</color>
+    <color name="accent_gold_hover">#F1C40F</color>
+    <color name="text_light">#E0E0E0</color>
+    <color name="text_muted">#A0A0A0</color>
+
+    <!-- Chessboard Colors -->
+    <color name="square_light">#EEEED2</color>
+    <color name="square_dark">#769656</color>
+    <color name="square_selected">#B58863</color>
+</resources>
