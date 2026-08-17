@@ -5,14 +5,16 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
-        maven { url = java.net.URI("https://jitpack.io") }
+        maven { url = uri("https://jitpack.io") }
     }
 }
 
-rootProject.name = "ART WITH LOGIC : BOTVINNIK"
+// Replace the colon with a hyphen or remove it entirely
+rootProject.name = "ArtWithLogic_Botvinnik"
 include(":app")
